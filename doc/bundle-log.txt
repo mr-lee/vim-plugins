@@ -1,0 +1,18 @@
+*bundle-log.txt*                   Bundle Install Log
+
+
+Logs bundle install activity. Also see the list of installed |bundles|.
+
+Fri May 11 03:45:56 CDT 2012 by vim-update-bundles 0.82+
+ Add |Swift-vim|                9b25ef647fa9f      https://github.com/aespinosa/Swift-vim.git
+   1 bundle added
+
+Fri May 11 03:47:54 CDT 2012 by vim-update-bundles 0.82+
+   no updates
+
+Fri May 11 03:48:47 CDT 2012 by vim-update-bundles 0.82+
+   no updates
+
+Fri May 11 03:52:00 CDT 2012 by vim-update-bundles 0.8
+   no updates
+

@@ -1,0 +1,10 @@
+*bundles* *bundles.txt*            Installed Bundles
+
+
+Lists the currently installed bundles. Also see the |bundle-log|.
+Last updated by vim-update-bundles on Fri May 11 03:52:00 CDT 2012.
+
+  PLUGIN                           VERSION                RELEASE DATE
+------------------------------------------------------------------------
+  |Swift-vim|                      9b25ef647fa9f          2012-05-11
+
