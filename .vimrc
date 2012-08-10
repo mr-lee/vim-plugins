@@ -66,7 +66,5 @@ EOF
 
 inoremap jj <ESC>
 
-" Bundle: aespinosa/Swift-vim
-
 " Nosetest integration
 map <leader>dt :set makerpg=python\ manage.py\ test\|:call MakeGreen()<CR>
