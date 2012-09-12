@@ -16,3 +16,23 @@ Fri May 11 03:48:47 CDT 2012 by vim-update-bundles 0.82+
 Fri May 11 03:52:00 CDT 2012 by vim-update-bundles 0.8
    no updates
 
+Tue Sep 11 12:50:25 CDT 2012 by vim-update-bundles 0.8
+ Del |ack|                      9895285042a2f
+ Del |fugitive|                 v1.2-146-g5298448
+ Del |command-t|                1.4-1-ge926704
+ Del |nerdtree|                 4.2.0
+ Del |minibufexpl|              6.4.1b4-15-g256e7df
+ Del |supertab|                 2.0-4-gee35ab6
+ Del |snipmate|                 f5a75d075d3c0
+ Del |ropevim|                  38e34394ce4a7
+ Del |py.test|                  82d6daa549203
+ Del |surround|                 v1.90-27-g1a73f60
+ Del |gundo|                    v2.4.0-2-g4c376a8
+ Del |tasklist|                 1.0.1
+ Del |git|                      v6.0-2-g2d54fb2
+ Del |pep8|                     0.3.1
+ Del |omnicppcomplete|          0.41
+ Del |pydoc|                    2.0-4-g206b325
+ Del |makegreen|                eb04971f545a4
+   17 bundles removed
+
