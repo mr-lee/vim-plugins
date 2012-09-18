@@ -46,8 +46,10 @@ autocmd FileType cpp set omnifunc=omni#cpp#complete#Main
 "Enable c++ code completion using ctags
 set tags+=~/.vim/tags/cpp
 set tags+=~/.vim/tags/cpp_src/
+set tags+=~/.vim/tags/qt4
+set tags+=~/.vim/tags/wh_tags
 "Hotkey to build tags for personal project
-map <C-F6> :!ctags -R --sort=yes --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
+map <C-F6> :!ctags -R --sort=yes --c++-kinds=+pl --fields=+iaS --extra=+q .<CR>
 "OmniCppComplete settings (derived from vim.wikia.com/wiki/VimTip1608)
 let OmniCpp_NamespaceSearch = 1
 let OmniCpp_GlobalScopeSearch = 1
@@ -61,7 +63,14 @@ let OmniCpp_DefaultNamespaces = ["std", "_GLIBCXX_STD"]
 au CursorMovedI,InsertLeave * if pumvisible() == 0|silent! pclose|endif
 set completeopt=menuone,menu,longest,preview
 
+"Ctags code browsing shortcuts for awesomeness
+map <a-]> :vs <CR> :exec("tag ".expand("<cword>"))<CR>
+
+"I'm sure there's a better key to use as leader, I hate meta keys...
 map <c-c> <leader>
+
+"Taglist function browser
+map <leader>f :TlistToggle<CR>
 
 " File browser
 map <leader>n :NERDTreeToggle<CR>
